@@ -80,7 +80,7 @@ export GUROBI_HOME="$(pwd)/gurobi900/linux64"
 export PATH="${PATH}:${GUROBI_HOME}/bin"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib:${GUROBI_HOME}/lib
 
-git clone https://github.com/eth-sri/deepg.git
+git clone https://github.com/JacksonZyy/deepg.git
 cd deepg/code
 mkdir build
 make shared_object
